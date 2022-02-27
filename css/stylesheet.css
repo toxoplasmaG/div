@@ -100,63 +100,9 @@ h2{
 h3{
     margin-left: 10px;
 }
-.line{
-    display: flex;
-    height: 60px;
-    border:solid 2px black;
-    margin:10px;
-    max-width: 500px;
-}
-.line-1{
-    justify-content: flex-start;
-}
-.line-2{
-    justify-content: flex-end;
-}
-.line-3{
-    justify-content: space-between;
-}
-.line-4{
-    justify-content: space-around;
-}
-.line-5{
-    justify-content: center;
-}
-.line-6{
-    justify-content: space-evenly;
-}
-.square{
-    width: 50px;
-    margin: 5px;
-    border: dashed 2px gray;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.square-1{
-    background-color: blue;
-}
-.square-2{
-    background-color:aqua;
-}
-.square-3{
-    background-color:red;
-}
-.square-4{
-    background-color:rgb(0, 255, 0);
-}
 footer{
     background-color:rgb(0, 255, 0);
     text-align: center;
     vertical-align: center;
     padding: 20px;    
-}
-@media (min-width: 520px){
-    .line{
-        margin: 10px auto;
-    }
-    h3{
-        margin-left:26.41vw;
-    }
 }
